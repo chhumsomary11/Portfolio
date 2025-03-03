@@ -1,0 +1,31 @@
+
+
+.container{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    display: inline-block;
+    vertical-align: top;
+    ;
+    width: 600px;
+    margin-left: 10px;
+}
+
+.title{
+    color: #fe5f55ff
+
+}
+
+.platform{
+    color: #4f6367ff;
+}
+
+
+.image{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}

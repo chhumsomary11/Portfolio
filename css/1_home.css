@@ -1,0 +1,67 @@
+#home-main {
+    display: flex;
+
+    align-items: center;  /* Vertically center align the content */
+    justify-content: space-between;  /* Add space between image and description */
+    gap: 10px;  /* Add space between the two sections */
+  }
+  
+  .description {
+    max-width: 500px;  /* Limit the text section width */
+    align-items: center;
+    justify-content: center;
+  }
+
+.greeting{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.name{
+  margin: 15px 0px;
+
+}
+
+.level{
+  font-family: monospace;
+  font-weight: bold;
+  color: #EF560F;
+  margin: 20px 0px;
+}
+
+.aboutMe-btn{
+  font-family: monospace;
+  margin: 30px 0px;
+  background: linear-gradient(to right, #ef560fa1, white);
+  border: 1px solid #EF560F  ;
+  border-radius: 15px;
+  padding: 5px 10px;
+  transition: padding 1s;
+}
+
+.aboutMe-btn:hover{
+  padding: 5px 30px;
+
+}
+
+.detail{
+  font-size: 12px;
+  color: #6d615c
+  ;
+}
+
+
+
+
+
+ .image{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .girl-logo{
+    max-width: 250px;
+}
+

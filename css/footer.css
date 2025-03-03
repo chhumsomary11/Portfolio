@@ -1,0 +1,28 @@
+
+footer{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:#EF560F;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    gap: 20px;
+}
+
+.cat-logo{
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    right: 2px;
+}
+
+.contact-container{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px 20px;
+}

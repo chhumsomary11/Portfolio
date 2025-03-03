@@ -1,0 +1,16 @@
+.skillContainer{
+    background-color: #7a9e9fff;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.skillFilled{
+    background-color: #fe5f55ff;
+    border-radius: 20px;
+}
+
+.skillTitle{
+    text-align: center;
+    padding: 5px 5px ;
+}

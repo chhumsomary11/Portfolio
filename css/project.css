@@ -1,0 +1,33 @@
+
+.container{
+    display: inline-block;
+    margin: 10px 10px;
+    width: 300px;
+    background-color: rgba(101, 117, 121, 0.245);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.description{
+    vertical-align: top;
+    ;
+}
+
+.title{
+    color: #fe5f55ff
+
+}
+
+.organization{
+    color: #4f6367ff;
+}
+
+
+.image{
+    width: 250px;
+    height: 200px;
+    object-fit: fill;
+    object-position: center ;
+}

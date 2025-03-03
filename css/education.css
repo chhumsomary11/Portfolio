@@ -1,0 +1,27 @@
+
+
+
+
+.description{
+    display: inline-block;
+    vertical-align: top;
+    ;
+    width: 400px;
+}
+
+.title{
+    color: #fe5f55ff
+
+}
+
+.organization{
+    color: #4f6367ff;
+}
+
+
+.image{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    object-position: right ;
+}

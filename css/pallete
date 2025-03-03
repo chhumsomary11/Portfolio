@@ -1,0 +1,86 @@
+Main Color:
+#EF560F
+#FBF9F8
+#433934
+
+
+
+* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-right: linear-gradient(90deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-bottom: linear-gradient(180deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-left: linear-gradient(270deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-top-right: linear-gradient(45deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-bottom-right: linear-gradient(135deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-top-left: linear-gradient(225deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-bottom-left: linear-gradient(315deg, #f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+$gradient-radial: radial-gradient(#f4dbd8ff, #bea8a7ff, #c09891ff, #775144ff, #2a0800ff);
+
+
+/* CSS HEX */
+--light-blue: #b8d8d8ff;
+--cadet-gray: #7a9e9fff;
+--paynes-gray: #4f6367ff;
+--beige: #eef5dbff;
+--bittersweet: #fe5f55ff;
+rgba(233, 236, 224, 0.381)
+#e9ece0
+
+
+/* SCSS RGB */
+$thistle: rgba(205, 180, 219, 1);
+$fairy-tale: rgba(255, 200, 221, 1);
+$carnation-pink: rgba(255, 175, 204, 1);
+$uranian-blue: rgba(189, 224, 254, 1);
+$light-sky-blue: rgba(162, 210, 255, 1);
+
+/* SCSS RGB */
+$prussian-blue: rgba(0, 48, 73, 1);
+$fire-engine-red: rgba(214, 40, 40, 1);
+$orange-wheel: rgba(247, 127, 0, 1);
+$xanthous: rgba(252, 191, 73, 1);
+$vanilla: rgba(234, 226, 183, 1);
+
+/* SCSS RGB */
+$charcoal: rgba(38, 70, 83, 1);
+$persian-green: rgba(42, 157, 143, 1);
+$saffron: rgba(233, 196, 106, 1);
+$sandy-brown: rgba(244, 162, 97, 1);
+$burnt-sienna: rgba(231, 111, 81, 1);
+
+
+🎨 Best Color Combinations for Websites
+1️⃣ Minimalist & Clean (Modern, Professional)
+Primary: White (#FFFFFF)
+Accent: Black (#000000) or Dark Gray (#333333)
+Highlight: Soft Blue (#007BFF) or Pastel Green (#27AE60)
+2️⃣ Bold & Energetic (Tech, Gaming, Startups)
+Primary: Deep Blue (#1E3A8A) or Electric Purple (#6A0DAD)
+Accent: Neon Green (#00FF85) or Vibrant Orange (#FF5733)
+Highlight: Bright Cyan (#00FFFF)
+3️⃣ Luxury & Elegance (Fashion, High-End Brands)
+Primary: Black (#000000) or Deep Navy (#2C3E50)
+Accent: Gold (#FFD700) or Rich Burgundy (#800020)
+Highlight: Platinum Gray (#E5E4E2)
+4️⃣ Soft & Friendly (Education, Blogs, Well-being)
+Primary: Soft Beige (#F5F5DC) or Pastel Blue (#A7C7E7)
+Accent: Blush Pink (#FFC0CB) or Soft Green (#98FB98)
+Highlight: Warm Yellow (#FFD700)
+5️⃣ Dark Mode & Futuristic (Tech, SaaS, AI)
+Primary: Dark Gray (#121212) or Space Blue (#0A192F)
+Accent: Neon Blue (#00BFFF) or Magenta (#FF00FF)
+Highlight: Electric Lime (#CCFF00)'
+
+
+🎨 Minimalist & Clean Portfolio Color Palette
+Primary Colors (Background & Base Colors)
+Pure White (#FFFFFF) → Clean, professional, and modern.
+Light Gray (#F8F9FA) → Subtle background variation to avoid a flat look.
+Soft Warm Gray (#EAEAEA) → Adds depth without being distracting.
+Secondary Colors (Text & Contrast)
+Deep Charcoal (#2E2E2E) → Ideal for headings and important text.
+Muted Black (#1C1C1C) → Used for contrast without feeling too harsh.
+Accent Colors (Subtle Highlights)
+Royal Blue (#0057B7) → Adds a touch of professionalism and tech vibe.
+Teal Green (#008080) → Sleek, creative, and calming.
+Warm Beige (#D4B996) → If you want a softer, more elegant feel.'
