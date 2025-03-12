@@ -1,26 +1,79 @@
-#intro{
-    background-color:  rgba(79, 99, 103, 0.157);
-    text-align: center;
-    border-radius: 10px;
+body{
+    background-image: url(https://images.hdqwalls.com/download/cat-lofi-looking-outside-xx-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-.container{
-    padding: 15px 0px;
-}
-
-.form{
-    padding: 10px;
-}
-.row{
+#wrapper{
     display: flex;
     align-items: center;
-    justify-content: center;
+    font-family: monospace;
+    font-size: larger;
+    color: #FBF9F8
+    ;
+
+}
+
+.info-container{
+    
+    width: 300px;
+    margin-left: 50px ;
+    margin-right: 60px ;
+    font-weight: bold;
+}
+
+
+
+.contact-icon-group{
+    margin-top: 20px;
+}
+
+.contact-icon-group img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+form{
+    /* z-index: -1; */
+    flex: 1;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color:#ef560f73
+    ;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 1px 1px  10px #e6dad4;
+
+
+
+    border-radius: 10px;
+    padding: 10px 10px;
 }
 
-.input{
-    margin: 10px;
+.input-container {
+    width: 200px;
 }
 
+.input-container .input-msg, 
+.input-container input {
+    outline: none;
+    width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-
+.input-container .input-msg::placeholder, 
+.input-container input::placeholder{
+    font-size: 11px;
+    padding-left: 5px;
+    font-family: monospace;
+}

@@ -1,9 +1,20 @@
+body{
+  background: url(https://i.pinimg.com/736x/1b/43/82/1b4382a3d16303e33ad34c2e3fa337a3.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+}
+
+
+
 #home-main {
     display: flex;
 
     align-items: center;  /* Vertically center align the content */
     justify-content: space-between;  /* Add space between image and description */
     gap: 10px;  /* Add space between the two sections */
+    color: #FBF9F8;
   }
   
   .description {
@@ -46,7 +57,6 @@
 
 .detail{
   font-size: 12px;
-  color: #6d615c
   ;
 }
 
@@ -54,14 +64,23 @@
 
 
 
- .image{
+ .thumbnail{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+
  }
 
- .girl-logo{
-    max-width: 250px;
+
+ .thumbnail img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  border: solid 5px #fbf9f860;
+  box-shadow: 1px 1px 20px #FBF9F8;
+  border-radius: 300px;
+    
 }
 

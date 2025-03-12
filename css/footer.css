@@ -16,6 +16,11 @@ footer{
     width: 250px;
     bottom: 0;
     right: 2px;
+    transition: transform 2s ease-in-out;
+}
+
+.cat-logo:hover{
+    transform: translateX(-100px);
 }
 
 .contact-container{

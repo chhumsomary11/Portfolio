@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <title>My Contact</title>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/General.css" />
     <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
   </head>
 
-  <body>
+  <body class="contact-body">
     <header>
       <nav>
         <div class="nav1">
@@ -20,18 +20,22 @@
           >
         </div>
         <div class="nav2">
-          <a href="AboutPage.html" target="_blank"> About Page &nbsp; &nbsp;</a>
-          <a href="ProjectPage.html" target="_blank">
+          <a class="menu" href="AboutPage.html" target="_blank">
+            About Page &nbsp; &nbsp;</a
+          >
+          <a class="menu" href="ProjectPage.html" target="_blank">
             My Project &nbsp; &nbsp;</a
           >
-          <a href="SkillsPage.html" target="_blank"> Skills &nbsp; &nbsp;</a>
-          <a href="EducationCertification.html" target="_blank">
+          <a class="menu" href="SkillsPage.html" target="_blank">
+            Skills &nbsp; &nbsp;</a
+          >
+          <a class="menu" href="EducationCertification.html" target="_blank">
             &nbsp; &nbsp;Education & Certification &nbsp; &nbsp;</a
           >
-          <a href="AchievementAward.html" target="_blank">
+          <a class="menu" href="AchievementAward.html" target="_blank">
             Achievement & Awards &nbsp; &nbsp;</a
           >
-          <a href="HobbiesInterest.html" target="_blank">
+          <a class="menu" href="HobbiesInterest.html" target="_blank">
             Hobbies & Interest &nbsp; &nbsp;</a
           >
         </div>
@@ -43,36 +47,125 @@
         </div>
       </nav>
     </header>
-
+<!-- 
     <main>
       <section id="intro">
-        <div class="container">
-          <p style="font-size: 20px; color:#fe5f55ff ;"><b>Contact ME!</p>
-            <div class="contact_info">
-                <p style="margin: 5px;"> Email:
-                    <a href="mailto:dananloeung@gmail.com"><small>dananloeung@gmail.com</small> </a>
-                  </p>
-                  <p style="margin: 5px; "> Github:
-                    <a href=https://github.com/chhumsomary11><small>chhumsomary11</small> </a>
-                  </p>
-                  <p >  +85512809323</p>
-
-            </div>
-
-            <div class="form">
-                <form class="row">
-                    <input class="input" type="text" placeholder="Name" >
-                    <input class="input" type="text" placeholder="Email" >
-                    <input style="height: 100px;" class="input" type="text" placeholder="Message" >
-                    <button class="sendBTN"> Send</button>
-                </form>
+        <div class="info-container">
+          <h1 class="contact-title">Contact Me</h1>
+          <p class="contact-info">
+            Send me any Message you you! Or you can contact me through these
+            platforms below.
+          </p>
+          <div class="contact-icon-group">
+            <a href="mailto:dananloeung@gmail.com">
+              <img
+                class="contact-logo"
+                src="/svg/icon-logo/email-1572-svgrepo-com.svg"
+              />
+            </a>
+  
+            <img
+              class="contact-logo"
+              src="/svg/icon-logo/linkedin-rounded-svgrepo-com.svg"
+            />
+            <a href="https://t.me/SOMARY2004">
+            <img
+            class="contact-logo"
+            src="/svg/icon-logo/telegram-svgrepo-com.svg"/>
+          </a>
             
-           
+            <a href=https://github.com/chhumsomary11> 
+              <img
+              class="contact-logo"
+              src="/svg/icon-logo/github-142-svgrepo-com.svg"
+            /></a>
+          </div>
           
 
+          
         </div>
+
+        <form class="form-container" action="submit.php" method="post">
+            <div class="form-row">
+              <input class="input" type="text" name="first_name" placeholder="First Name" required>
+              <input class="input" type="text" name="last_name" placeholder="Last Name" required> 
+            </div>
+
+            <div class="form-row">
+              <input class="input" type="email" name="email" placeholder="Email" required>
+            <input class="input" type="tel" name="phone" placeholder="Phone number">
+            </div>
+
+            
+            
+        
+            <textarea class="input" name="message" placeholder="Message"></textarea>
+            
+            <button class="sendBTN" type="submit">Send me a message</button>
+        </form>
+
       </section>
+    </main> -->
+
+
+    <main>
+      <section id="wrapper">
+        <div class="info-container">
+          <h1>Contact Me!</h1>
+          <p class="contact-info">
+            Send me any Message you you! Or you can contact me through these
+            platforms below.
+          </p>
+          <div class="contact-icon-group">
+            <a href="mailto:dananloeung@gmail.com">
+              <img
+                
+                src="/svg/icon-logo/email-1572-svgrepo-com.svg"
+              />
+            </a>
+  
+            <img
+              
+              src="/svg/icon-logo/linkedin-rounded-svgrepo-com.svg"
+            />
+            <a href="https://t.me/SOMARY2004">
+            <img
+            
+            src="/svg/icon-logo/telegram-svgrepo-com.svg"/>
+          </a>
+            
+            <a href=https://github.com/chhumsomary11> 
+              <img
+              
+              src="/svg/icon-logo/github-142-svgrepo-com.svg"
+            /></a>
+          </div>
+        </div>
+  
+          <form action="">
+            <h3>Send me a message!</h3>
+            <div class="input-container">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="input-container">
+              <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input-container">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="input-container">
+              <textarea class="input-msg" name="message" placeholder="Message"></textarea>
+            </div>
+  
+            <button type="submit"> Send Message </button>
+          </form>
+      </section>
+      
     </main>
+
+
+
+
     <footer>
       <div class="contact-container">
         <p>My contact</p>

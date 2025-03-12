@@ -5,6 +5,8 @@ a{
     flex-shrink: 0;
 }
 
+
+
 a:hover{
     opacity: 0.5;
 }

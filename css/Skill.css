@@ -1,12 +1,13 @@
 .skillContainer{
-    background-color: #7a9e9fff;
+    background-color: #504a48
+    ;
     width: 400px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
 .skillFilled{
-    background-color: #fe5f55ff;
+    background: linear-gradient(to right,#fe5f55ff, white);
     border-radius: 20px;
 }
 
